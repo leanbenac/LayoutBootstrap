@@ -3,11 +3,42 @@ body{
 } 
 #menu li > a {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color:#3f3f3f;
 
 }
 
 #menu form > button{
-    font-size: 1rem;
+    font-size: 0.8rem;
+}
+
+/******** SLIDER *********/
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+
+
+
+/* MEDIA QUERY PANTALLA SM */
+
+@media (max-width:768px){
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+} 
+
+/* MEDIA QUERY PANTALLA EXTRA SM */
+
+@media (max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
 }
