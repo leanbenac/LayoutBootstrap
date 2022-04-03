@@ -1,0 +1,13 @@
+body{
+    overflow-x: hidden;
+} 
+#menu li > a {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color:#3f3f3f;
+
+}
+
+#menu form > button{
+    font-size: 1rem;
+}
