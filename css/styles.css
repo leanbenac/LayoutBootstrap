@@ -1,79 +1,74 @@
-body{
+    body {
     overflow-x: hidden;
-} 
-#menu li > a {
+    }
+    #menu li > a {
     font-weight: bold;
     font-size: 1.4rem;
-    color:#3f3f3f;
+    color: #3f3f3f;
+    }
 
-}
-
-#menu form > button{
+    #menu form > button {
     font-size: 0.8rem;
-}
+    }
 
-/******** SLIDER *********/
+    /******** SLIDER *********/
 
-.carousel-inner {
+    .carousel-inner {
     max-height: 39rem;
-}
+    }
 
-
-/*** SECCION NUESTRO EQUIPO MAPA ***/
-#mapa {
+    /*** SECCION NUESTRO EQUIPO MAPA ***/
+    #mapa {
     background-image: url(../img/mapa.png);
     width: 100%;
     height: 500px;
-}
+    }
 
-#local {
+    #local {
     margin-top: 50px;
     background-color: #f3f3f3;
     padding-bottom: 300px;
     display: flex;
     justify-content: center;
-}
+    }
 
-
-.wrapper{
+    .wrapper {
     width: 50%;
     margin-left: 100px;
     margin-top: 150px;
-}
+    }
 
-/*** SECCION NUESTRO EQUIPO MIAMI ***/
+    /*** SECCION NUESTRO EQUIPO MIAMI ***/
 
-#numeros-local div {
-    padding:0 20px 0 0;
+    #numeros-local div {
+    padding: 0 20px 0 0;
     height: 48px;
-}
+    }
 
-#numeros-local div:not(:last-child){
-    border-right: 2px solid #3f3f3f ;
-
-}
-#numeros-local div:not(:first-child){
+    #numeros-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+    }
+    #numeros-local div:not(:first-child) {
     padding-left: 20px;
-}
+    }
 
-#numeros-local p{
-    margin:0;
+    #numeros-local p {
+    margin: 0;
+    }
 
-}
-
-/*** CONTACTOS BACKGROUND ***/
-#bg-contacto {
+    /*** CONTACTOS BACKGROUND ***/
+    #bg-contacto {
     position: relative;
-    top: -130px
-}
-#seccion-contacto {
+    top: -130px;
+    }
+    #seccion-contacto {
     background-color: #1b2a4e;
     min-height: 500px;
     position: relative;
-}
+    }
 
-/*** CONTACTOS FORMULARIO ***/
-#contenedor-formulario {
+    /*** CONTACTOS FORMULARIO ***/
+    #contenedor-formulario {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -81,50 +76,48 @@ body{
     background: #fbfafa;
     border-radius: 5px;
     max-width: 500px;
-}
+    }
 
-#titulo-formulario{
+    #titulo-formulario {
     color: #3f3f3f;
+    }
+    /*** FOOTER ***/
 
-}
-/*** FOOTER ***/
-
-footer{
+    footer {
     background: #1b2a4e;
     min-height: 100px;
-}
+    }
 
-footer p{
-    color:#f3f3f3;
+    footer p {
+    color: #f3f3f3;
     text-align: center;
-}
+    }
 
-#iconos i{
+    #iconos i {
     font-size: 1.5rem;
     padding: 0 8px;
-    color:#f3f3f3
-}
-/* MEDIA QUERY PANTALLA ANCHA */
+    color: #f3f3f3;
+    }
+    /* MEDIA QUERY PANTALLA ANCHA */
 
-@media (max-width:1200px){
-    #local{
-        flex-wrap:  wrap;
+    @media (max-width: 1200px) {
+    #local {
+        flex-wrap: wrap;
         padding-top: 30px;
     }
 
-    .wrapper{
+    .wrapper {
         width: 90%;
-        margin: auto ;
+        margin: auto;
         padding-top: 50px;
     }
-}
+    }
 
+    /* MEDIA QUERY PANTALLA SM */
 
-
-/* MEDIA QUERY PANTALLA SM */
-
-@media (max-width:768px){
-    #intro, #equipo {
+    @media (max-width: 768px) {
+    #intro,
+    #equipo {
         width: 90% !important;
     }
     #equipo p {
@@ -134,15 +127,15 @@ footer p{
         width: 100% !important;
         text-align: center;
     }
-} 
-#bg-contacto {
+    }
+    #bg-contacto {
     top: -110px;
-}
-/* MEDIA QUERY PANTALLA EXTRA SM */
+    }
+    /* MEDIA QUERY PANTALLA EXTRA SM */
 
-@media (max-width: 576px) {
-    .icono-wrap{
+    @media (max-width: 576px) {
+    .icono-wrap {
         flex-wrap: wrap;
         justify-content: center !important;
     }
-}
+    }
