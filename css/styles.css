@@ -44,13 +44,13 @@ body{
 /*** SECCION NUESTRO EQUIPO MIAMI ***/
 
 #numeros-local div {
-    padding:0;
+    padding:0 20px 0 0;
     height: 48px;
 }
 
 #numeros-local div:not(:last-child){
     border-right: 2px solid #3f3f3f ;
-    margin: 3px;
+
 }
 #numeros-local div:not(:first-child){
     padding-left: 20px;
@@ -58,7 +58,51 @@ body{
 
 #numeros-local p{
     margin:0;
-    margin-right: 10px;
+
+}
+
+/*** CONTACTOS BACKGROUND ***/
+#bg-contacto {
+    position: relative;
+    top: -130px
+}
+#seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+/*** CONTACTOS FORMULARIO ***/
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+
+}
+/*** FOOTER ***/
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p{
+    color:#f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 1.5rem;
+    padding: 0 8px;
+    color:#f3f3f3
 }
 /* MEDIA QUERY PANTALLA ANCHA */
 
@@ -91,7 +135,9 @@ body{
         text-align: center;
     }
 } 
-
+#bg-contacto {
+    top: -110px;
+}
 /* MEDIA QUERY PANTALLA EXTRA SM */
 
 @media (max-width: 576px) {
