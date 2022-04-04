@@ -18,8 +18,8 @@
 
     /*** SECCION NUESTRO EQUIPO MAPA ***/
     #mapa {
-    background-image: url(../img/mapa.png);
-    width: 100%;
+    /* background-image: url(../img/mapa.png); */
+    width: 900px;
     height: 500px;
     }
 
