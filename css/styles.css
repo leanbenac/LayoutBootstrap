@@ -18,7 +18,7 @@
 
     /*** SECCION NUESTRO EQUIPO MAPA ***/
     #mapa {
-    /* background-image: url(../img/mapa.png); */
+    background-image: url(../img/miami.png);
     width: 900px;
     height: 500px;
     }
